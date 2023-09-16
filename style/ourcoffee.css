@@ -1,0 +1,64 @@
+
+.ourcoffee{
+    height: 1004px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: #202020;
+}
+.ourcoffee__text {
+    height: 260px;
+    margin-top: 160px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Italiana', serif;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 130px; /* 130% */
+    letter-spacing: 2px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 80px;
+    margin-bottom: 160px;
+}
+
+.button {
+    width: 144px;
+    height: 44px;
+    display: flex;
+    padding: 10px 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 32px;
+    font-family: 'Italiana', serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    border: 2px solid var(--primary-orange, #FAC660);
+    cursor: pointer;
+}
+
+.button--primary{
+    background: var(--primary-orange, #FAC660);
+    width: 164px;
+}
+
+.button--secondary {
+    background-color: #202020;
+    color: #FFF;
+}
+
+
+.features__img {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: 1170px;
+    border-radius: 32px;
+}
+

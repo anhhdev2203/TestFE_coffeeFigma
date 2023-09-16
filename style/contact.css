@@ -1,0 +1,64 @@
+.contact {
+    background-color: #202020;
+    padding: 71px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.contact__tagname {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 30px;
+    padding: 0;
+    justify-content: center;
+}
+
+.contact__tagnameitem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+    padding: 0;
+}
+
+.contact__icon{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact__iconlist  {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: end;
+}
+
+.contact__iconlist a {
+    width: 32px;
+    height: 32px;
+    background-color: #FFF;
+    border-radius: 56px;
+}
+
+.contact__iconlist a i {
+    display: flex;
+    width: 16px;
+    height: 16px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px;
+    padding: 3.457px 0px;
+}
+
+
+
+
+
+
+
+
+

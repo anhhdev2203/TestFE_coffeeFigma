@@ -1,0 +1,46 @@
+.subcribe {
+    padding: 60px 0;
+    display: flex;
+    flex-direction: row;
+}
+.subcribe p {
+    width: 670px;
+    color: var(--general-body, #202020);
+    font-family: Italiana;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 64px;
+    display: flex;
+}
+
+.signup {
+    display: flex;
+}
+
+.subcribe input {
+    width: 300px;
+    height: 72px;
+    border-top-left-radius: 56px;
+    border-bottom-left-radius: 56px;
+    color: var(--general-body, #202020);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.subcribe button {
+    width: 170px;
+    height: 72px;
+    border-top-right-radius: 56px;
+    border-bottom-right-radius: 56px;
+    border: none;
+    background-color: #202020;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+}

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/header.css" />
+    <link rel="stylesheet" href="./style/ourcoffee.css" />
+    <link rel="stylesheet" href="./style/feaatures.css" />
+    <link rel="stylesheet" href="./style/blog.css" />
+    <link rel="stylesheet" href="./style/singlepost.css" />
+    <link rel="stylesheet" href="./style/subcribe.css" />
+    <link rel="stylesheet" href="./style/contact.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italiana&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Italiana&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container ">
+      <header class="header">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li
+              class="tagname"
+              style="color: var(--primary-orange, #fac660)"
+            >
+              HOMEPAGE
+            </li>
+            <li class="tagname">OUR COFFEE</li>
+            <li class="tagname">FEATURES</li>
+          </ul>
+        </nav>
+
+        <div class="collect__logo">
+          <img class="logo logo__heading" src="./image/logo-icon.svg" alt="" />
+          <img class="coffee coffee__heading" src="./image/coffeener.svg" alt="" />
+        </div>
+
+        <img id="logo__img__heading" src="./image/logo (3) 1.png" alt="">
+
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="tagname">BLOG</li>
+            <li class="tagname">SINGLE POST</li>
+            <li class="tagname">CONTACT</li>
+          </ul>
+        </nav>
+
+        <div id="hamburger__id" >
+          <p  class="hamburger__item1"></p>
+          <p  class="hamburger__item2"></p>
+        </div>
+
+      </header>
+
+        <div  id = "menu__id">
+            <ul id = "menu" class="menu__list">
+                <li class="menu__item"><a href="">HOMEPAGE</a></li>
+                <li class="menu__item"><a href="">OURCOFFEE</a></li>
+                <li class="menu__item"><a href="">FEATURES</a></li>
+                <li class="menu__item"><a href="">BLOG</a></li>
+                <li class="menu__item"><a href="">SINGLE POST</a></li>
+                <li class="menu__item"><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+        <script>
+          const menuHTML = document.getElementById("menu")
+          console.log (menuHTML)
+          const hamburgerHTML = document.getElementById("hamburger__id")
+          console.log (hamburgerHTML)
+          hamburgerHTML.addEventListener("click", function() {
+              menuHTML.classList.toggle("hide")
+          })
+        </script>
+
+    </div>
+
+    <div class="container gradientcolor">
+      <section class="ourcoffee">
+        <p class="ourcoffee__text">
+          The best <span style="color: #fac660">Coffee</span> in <br />your
+          stunning world
+        </p>
+        <div class="row">
+          <button class="button button--primary">Get Coffeener</button>
+          <button class="button button--secondary">My Twitter</button>
+        </div>
+        
+          <img class="features__img" src="./image/video.png" alt="" />
+        
+      </section>
+    </div>
+
+    
+    <div class="whitecontainer">
+      <section class="features">
+        <div class="container">
+          <p class="feature__heading">
+            Positive Statistics Highlight Success of Our Company
+          </p>
+          <ul class="feature__list1">
+            <p class="feature__text">
+              Strong sales, positive feedback, and sustainability practices
+              showcase our commitment to excellence and growth
+            </p>
+            <p class="moredetails">More details</p>
+          </ul>
+  
+          <div class="feature__list">
+            <ul class="feature__item feature__item__left">
+              <p>
+                Customers reported high levels of satisfaction with our product,
+                citing its quality and effectiveness.
+              </p>
+              <span>92%</span>
+            </ul>
+            <ul class="feature__item feature__item__right ">
+              <p class="feature__right">
+                Colombian Supremo is the most popular Arabica coffee, accounting
+                for 30% of all Arabica coffee sales worldwide.
+              </p>
+              <span>30%</span>
+            </ul>
+            <ul class="feature__item  feature__item__left">
+              <p>
+                Our product has received a great rating on average across all
+                online review platforms, indicating its quality and effectiveness.
+              </p>
+              <span>4.8-star</span>
+            </ul>
+          </div>
+        </div>
+          
+      </section>
+    </div>
+    
+
+    <div class="container ">
+      <section class="blog">
+        <p class="blog__heading">
+          Experience the Complex and
+          <span style="color: #fac660">Delicious</span> Tastes of Two
+          Exceptional <span style="color: #fac660">Arabica</span>
+          Coffees
+        </p>
+
+        <div class="blog__area">
+          <div class="blog__up__left">
+            <p class="blog__author">by Daniel Tafjord on Unsplash</p>
+            <div class="blog__image">
+              <img class="blog__img" src="./image/image.png" alt="" > 
+              <div class="img__boder" ></div>
+            </div>
+          </div>
+          <div class="blog__up__right">
+            <ul class="blog__text">
+              <li class="blog__textitem">
+                
+                  Ethiopian Yirgacheffe is a type of Arabica coffee that is
+                  grown in the southern highlands of Ethiopia. It is considered
+                  one of the finest Arabica coffees in the world due to its
+                  unique flavor profile. The coffee is known for its bright
+                  acidity, medium body, and floral, citrusy notes with a hint of
+                  spice.
+                
+              </li>
+              <li class="blog__textitem">
+                
+                  The Yirgacheffe coffee plant grows in rich, fertile soil and
+                  in high-altitude regions. The beans are carefully hand-picked
+                  and sun-dried, resulting in a coffee with a distinct flavor
+                  that is hard to replicate. The beans are also processed using
+                  a wet method, which helps to enhance the coffee's floral and
+                  fruity notes.
+                
+              </li>
+              <li>
+                <button class="button button--primary">Get Coffeener</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="blog__area margin__150 blog__reverse">
+          <div class="blog__under__left ">
+            <ul class="blog__text">
+              <li class="blog__textitem">
+                  Colombian Supremo is a type of Arabica coffee that is grown in
+                  the high-altitude regions of Colombia. It is renowned for its
+                  rich, full-bodied taste, with a mild acidity and a smooth
+                  finish. The coffee beans are carefully hand-picked and
+                  sun-dried, resulting in a coffee with a well-balanced flavor
+                  profile.
+              </li>
+              <li class="blog__textitem">
+                
+                  The Supremo coffee plant is known for producing large coffee
+                  beans, which contribute to the coffee's full-bodied taste. The
+                  beans are processed using a wet method, which helps to enhance
+                  the coffee's flavor and aroma. Colombian Supremo is often
+                  described as having a sweet and nutty taste, with hints of
+                  chocolate and caramel.
+                
+              </li>
+              <button class="button button--secondary fordestop" style="width: 162px">
+                Check Figma
+              </button>
+              <button class="button button--primary fortablet">Get Coffeener</button>
+
+            </ul>
+          </div>
+
+          <div class="blog__under__right">
+            <p class="blog__author blog__author__under">
+              by Patrick Langwallner on Unsplash
+            </p>
+            <div class="blog__image">
+              <img class="blog__img" src="./image/img.png" alt="" />
+              <p class="img__boder"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class=" whitecontainer">
+      
+        <section class="singlepost">
+          <div class="container">
+            <div class="singlepost__heading">
+              <p>Coffee Insights: Exploring the World of Specialty Coffee</p>
+              <a href=""><img src="./image/Layer 2.svg" alt="" /></a>
+            </div>
+            <div class="singlepost__list">
+              <ul class="singlepost__listitem">
+                <img src="./image/img (1).png" alt="" />
+                <p>Hygge Vibes <br />By Rizky Subagja on Unsplash</p>
+              </ul>
+              <ul class="singlepost__listitem">
+                <img src="./image/img (2).png" alt="" />
+                <p>By GC Libraries <br />Creative Tech Lab on Unsplash</p>
+              </ul>
+              <ul class="singlepost__listitem">
+                <img src="./image/img (3).png" alt="" />
+                <p>Coffee <br />By Harry Brewer on Unsplash</p>
+              </ul>
+            </div>
+          </div>
+        </section>
+      
+    </div>
+    <div class="whitecontainer">
+      <div class="container">
+        <section class="subcribe">
+          <p>Subscribe on our updates</p>
+          <div class="signup">
+            <input type="text" placeholder="Your mail here" />
+            <button class="">Sign up</button>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div class="container ">
+      <section class="contact">
+        <div id="fortablet__id" class="collect__logo">
+          <img class="logo" src="./image/logo-icon.svg" alt="" />
+          <img class="coffee" src="./image/coffeener.svg" alt="" />
+        </div>
+
+        <ul class="contact__tagname">
+          <ul class="contact__tagnameitem">
+            <li class="tagname" style="color: #fac660">HOMEPAGE</li>
+            <li class="tagname">OUR COFFEE</li>
+            <li class="tagname">FEATURES</li>
+          </ul>
+          <ul class="contact__tagnameitem">
+            <li class="tagname">BLOG</li>
+            <li class="tagname">SINGLE POST</li>
+            <li class="tagname">CONTACT</li>
+          </ul>
+        </ul>
+
+        <div id = "fordestop__id" class="collect__logo">
+          <img class="logo logo__contact " src="./image/logo-icon.svg" alt="" />
+          <img class="coffee  coffee__contact " src="./image/coffeener.svg" alt="" />
+        </div>
+
+        <div class="contact__icon">
+          <ul class="contact__iconlist">
+            <a><i class="fa-brands fa-medium"></i></a>
+            <a><i class="fa-brands fa-dribbble"></i></a>
+          </ul>
+
+          <ul class="contact__iconlist">
+            <a><i class="fa-brands fa-behance"></i></a>
+            <a><i class="fa-brands fa-linkedin-in"></i></a>
+            <a><i class="fa-brands fa-twitter"></i></a>
+          </ul>
+          
+        </div>
+        <Script src="./script.js">
+
+        </Script>
+      </section>
+    </div>
+
+    
+      <section class="footer">
+        <div class="conainer graycontainer">
+          <p>© 2023 Coffeener. Some rights reserved.</p>
+        </div>
+      </section>
+    
+  </body>
+</html>
